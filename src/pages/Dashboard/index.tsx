@@ -42,7 +42,7 @@ const Dashboard: React.FC = () => {
     }
 
     loadTransactions();
-  }, [transactions, balance]);
+  }, []);
 
   return (
     <>
